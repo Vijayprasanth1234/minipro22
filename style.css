@@ -181,6 +181,7 @@ a{
     color: white;
     padding-top: 10%;
     height: 140vh;
+    z-index: 20;
 }
 .subcontainer41{
     display: grid;
