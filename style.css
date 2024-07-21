@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+:root{
+    --color-1:(#186cb8);
+    --color-2:(#2a9a9f);
+    --color-3:(orange);
+    --color-4:(red);
+    --color-5:(yellow);
+
+
+}
+.maincontainer{
+    background-image: url(./back.webp);
+    background-size: cover;
+   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    text-decoration: none;
+    font-size: 300%;
+    background-image: linear-gradient(43deg,#4158D0 0%,hsl(0, 78%, 50%) 46%,#FFCC70);
+    -webkit-background-clip: text;
+    color: transparent;   
+    float: left;     
+    z-index: 1; 
+}
+
+.header{
+    width: 100%;
+    padding:1% 1%;
+    background-image: url(./5380132_3dad.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+    font-weight: 800;
+    flex-wrap: wrap;
+    z-index: 1; 
+    position: fixed;
+    top: 1.5vw;
+    
+}
+.navbar a{
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 4vh;
+    color: wheat;
+    z-index: 1; 
+    
+}
+#one,#two,#three,#four{
+    background-image: linear-gradient(43deg,#4158D0 50%,hsl(0, 78%, 50%) 46%,#FFCC70);
+    -webkit-background-clip: text;
+    color: transparent;   
+}
+.container{
+    text-align: center;
+    width: 90%;
+    padding-left: 10%;
+    z-index: 1; 
+    padding-top: 15vw;
+   
+}
+
+
+.container2{
+    display: flex;
+    width: 90%;
+    margin-left: 2%;
+    z-index: 1; 
+    
+ }
+ .butto{
+    margin-top: 5%;
+    height: 8vh;
+    width: 10vw;
+    font-size: 3vh;
+    background-color: transparent;
+    
+ }
+ .subcontainer2{
+    padding-left: 2%;
+   padding-top: 3%;
+ }
+
+
+
+
+ .container3{
+    display: flex;
+    width: 85%;
+   
+ }
+ .butto1{
+    
+    margin-top: 2%;
+    height: 8vh;
+    width: 10vw;
+    font-size: 3vh;
+    background-color: transparent;
+   
+    
+ }
+ .subcontainer3{
+padding-left: 2%;
+padding-top: 4%;
+ }
+ 
+
+
+
+.container,.container2,.container3{
+    color: white;
+    
+}
+.code{
+    z-index: -1;
+  
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.img4{
+   padding-left: 10vw;
+}
+.img4{
+    animation-name: infiniteupdown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    
+}
+@keyframes infiniteupdown {
+    0% {
+        transform:rotateY(0deg);
+    }
+    50% {
+        transform:rotateY(350deg);
+
+    }
+    100%{
+        transform: translateY(0deg);
+    }
+}
+.img2{
+    animation-name: infiniteupdown1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    
+}
+@keyframes infiniteupdown1 {
+    0% {
+        transform:scale(0,0);
+    }
+    50% {
+        transform:scale(1.0,1.0);
+
+    }
+    100%{
+        transform: translateY(0vw);
+    }
+}
+.img5{
+  border-radius: 10%;    
+}
+
+
+.container4{
+    text-align: center;
+    background-image: url(./page-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 10%;
+    height: 140vh;
+}
+.subcontainer41{
+    display: grid;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 400px 400px ;
+    gap: 15px;
+    justify-content: center;
+   
+}
+
+
+
+
+.container5{
+    text-align: center;
+    margin-top: 4vh;
+}
+
+.pic1{
+    background-color: transparent;
+    box-shadow: 0 0 1em black;
+    padding-top: 10%;
+
+}
+.pic2{
+    background-color: transparent;
+    box-shadow: 0 0 1em black;
+    padding-top: 10%;
+
+    
+
+}
+.pic3{
+    background-color: transparent;
+    box-shadow: 0 0 1em black;
+    padding-top: 10%;
+}
+.pic4{
+    background-color: transparent;
+    box-shadow: 0 0 1em black;
+    padding-top: 10%;
+}
+
+.pic1:hover{
+    transform: scale(1.1,1.1);
+    transition: 2s;
+}
+.pic2:hover{
+    transform: scale(1.1,1.1);
+    transition: 2s;
+}
+.pic3:hover{
+    transform: scale(1.1,1.1);
+    transition: 2s;
+}
+.pic4:hover{
+    transform: scale(1.1,1.1);
+    transition: 2s;
+}
+
+.container6{
+    display: grid;
+    grid-template-rows: 300px 300px 300px 300px;
+    grid-template-columns: 300px 300px;
+   column-gap: 285px;
+   row-gap: 105px;
+    justify-content: center;
+   padding-right: 23vw;
+   padding-top: 10vw;
+   background-image: url(./back.webp);
+   background-size: cover;
+   height: 220vh;
+
+}
+.pic6:hover{
+    transform: scale(1.1,1.1);
+    transition: 2s;
+    
+}
+.pic7:hover{
+    transform: scale(1.1,1.1);
+    transition: 2s;
+}
+.pic8:hover{
+    transform: scale(1.1,1.1);
+    transition: 2s;
+}
+.pic9:hover{
+    transform: scale(1.1,1.1);
+    transition: 2s;
+}
+.pic10:hover{
+    transform: scale(1.1,1.1);
+    transition: 2s;
+}
+.pic11:hover{
+    transform: scale(1.1,1.1);
+    transition: 2s;
+}
+.inner1{
+    border-radius: 80px;
+}
+
+
+
+
+
+
+
+
+
+ 
+.container7{
+    text-align: center;
+    color: white;
+    padding-top: 8vh;
+    background-image: url(./page-bg.jpg);
+    background-size: cover;
+}
+
+
+.inp{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+   
+    
+}
+.inp3{
+    width: 40vw;
+    background-color: transparent;
+}
+.inp4{
+width: 40vw;
+background-color: transparent;
+}
+.inp5{
+    width: 90vw;
+    background-color: transparent;
+}
+.te{
+    width: 90vw;
+    height: 30vh;
+    background-color: transparent;
+}
+
+
+
+
+
+
