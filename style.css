@@ -155,7 +155,7 @@ padding-top: 4%;
     height: 8vh;
     width: 10vw;
     font-size: 3vh;
-    background-color: lightblue;
+    /* background:rgba(255,255,255,0.10); */
     width: 20vw;  
  }
  .a3{
@@ -165,7 +165,33 @@ padding-top: 4%;
     font-weight: 700;
     
  }
- 
+ .butto2{
+    background: linear-gradient(90deg,#ff6708,#50e3fc,#bc13fe,#03a9f4,#0ff0fc);
+    background-size: 500%;
+    /* z-index: 1; */
+    animation: blink 5s linear infinite;
+    
+   
+ }
+ @keyframes blink {
+    from{
+        background-position: 0%;
+    }
+    to{
+        background-position: 500%;
+    }
+  
+ }
+ .btn::after{
+    background: inherit;
+    opacity: 0;
+
+ }
+ .btn::after{
+    opacity: 2.5;
+
+    z-index: -1;
+ }
 
 
 
@@ -281,6 +307,7 @@ a{
 .pic1,.pic2,.pic3,.pic4{
     transform-style: preserve-3d;
     animation: animate 5s linear ;
+    animation-iteration-count: calc(2);
    
     
 }
@@ -380,6 +407,7 @@ a{
     display: flex;
     gap: 10px;
     justify-content: center;
+    color: white;
     
    
     
@@ -387,19 +415,23 @@ a{
 .inp3{
     width: 40vw;
     background-color: transparent;
+    color: white;
 }
 .inp4{
 width: 40vw;
 background-color: transparent;
+color: white;
 }
 .inp5{
     width: 90vw;
     background-color: transparent;
+    color: white;
 }
 .te{
     width: 90vw;
     height: 30vh;
     background-color: transparent;
+    color: white;
 }
 
 
